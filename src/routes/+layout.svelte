@@ -1,20 +1,24 @@
 <script>
     import { fade } from 'svelte/transition';
     let transitioning = true;
+
+    function toggleTransition() {
+        transitioning = !transitioning;
+    }
 </script>
 
 
 
 <input type="checkbox" bind:checked={transitioning}>
 
-    <h5 transition:fade>Kelamir's blog</h5>
+<h5 transition:fade>Kelamir's blog</h5>
 
-    <ul>
-        <li on:click={transitioning = !transitioning}> <a href="/home">Home</a> </li>
-        <li on:click={transitioning = !transitioning}> <a href="/posts">Posts</a> </li>
-        <li on:click={transitioning = !transitioning}> <a href="/contact">Contact</a> </li>
-        <li on:click={transitioning = !transitioning}> <a href="/about">About</a> </li>
-    </ul>
+<ul>
+    <li on:click={toggleTransition}> <a href="/home">Home</a> </li>
+    <li on:click={toggleTransition}> <a href="/posts">Posts</a> </li>
+    <li on:click={toggleTransition}> <a href="/contact">Contact</a> </li>
+    <li on:click={toggleTransition}> <a href="/about">About</a> </li>
+</ul>
 
 {#if transitioning}
     <div transition:fade>
