@@ -14,7 +14,7 @@
 <h5 transition:fade>Kelamir's blog</h5>
 
 <ul>
-    <li on:click={toggleTransition}> <a href="/home">Home</a> </li>
+    <li on:click={toggleTransition}> <a href="/">Home</a> </li>
     <li on:click={toggleTransition}> <a href="/posts">Posts</a> </li>
     <li on:click={toggleTransition}> <a href="/contact">Contact</a> </li>
     <li on:click={toggleTransition}> <a href="/about">About</a> </li>
