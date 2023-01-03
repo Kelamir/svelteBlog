@@ -9,8 +9,6 @@
 
 
 
-<input type="checkbox" bind:checked={transitioning}>
-
 <h5 transition:fade>Kelamir's blog</h5>
 
 <ul>
