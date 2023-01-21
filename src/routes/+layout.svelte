@@ -1,3 +1,6 @@
+<script>
+  import "../app.css";
+</script>
 
 <h2>Kelamir's blog</h2>
 
