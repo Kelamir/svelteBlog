@@ -1,5 +1,3 @@
-<h2>Posts</h2>
-
 <h3>Sun</h3>
 
 <p>Oh, golden sun in the sky,

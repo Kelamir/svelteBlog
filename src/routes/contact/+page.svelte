@@ -1,7 +1,3 @@
-<h3>
-    Contact me
-</h3>
-
 <p>
     Oh how I wish I could reach out to you,
     But alas, I'm just a kitty cat, so what can I do?
